@@ -17,7 +17,7 @@ function drawingPentagon(positionX, positionY, size, numberOfRows) {
       context.fill();
       positionX += size;
     }
-    positionX -= size * (rowCounter + 1);
+    positionX -= size * (2 * rowCounter);
     positionY += size;
     alpha -= 0.2;
   }
